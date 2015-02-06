@@ -1,0 +1,685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mobile",
+				"mobile-menu"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"fir",
+				"first-of-type"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"M",
+				"Merriweather"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"content",
+				"content-box"
+			],
+			[
+				"top",
+				"top-logo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/media_query.css",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 7548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/navigation.css",
+			"settings":
+			{
+				"buffer_size": 3515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header_top.php",
+			"settings":
+			{
+				"buffer_size": 3677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Z/_Framework Resources/_function instructions/function_instructions.php",
+			"settings":
+			{
+				"buffer_size": 18357,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/repositories/texo/public_html/redesign/includes/config.php",
+			"settings":
+			{
+				"buffer_size": 5324,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Design-PC2/Documents/GitHub/jzlz/public_html/footer.php",
+		"/C/Users/Design-PC2/Documents/GitHub/jzlz/public_html/header_top.php",
+		"/C/repositories/aaro/public_html/css/style.css",
+		"/C/Users/Design-PC2/Documents/GitHub/jzlz/public_html/css/style.css",
+		"/C/Users/Design-PC2/Documents/GitHub/jzlz/public_html/header.php",
+		"/C/Users/Design-PC2/Documents/GitHub/jzlz/public_html/index.php",
+		"/C/repositories/texo/public_html/new_site/public_html/includes/config.php",
+		"/C/repositories/misa/public_html/redesign/header.php",
+		"/C/repositories/misa/public_html/redesign/index.php",
+		"/C/repositories/texo/public_html/redesign/images/envelope.svg",
+		"/C/repositories/texo/public_html/redesign/images/envelope-at.svg",
+		"/Z/_Design Resources/Icons/Our SVG Icons (the svgs)/phone.svg",
+		"/C/repositories/texo/public_html/redesign/includes/functions/svg_icons.php",
+		"/Z/_Design Resources/Icons/Our SVG Icons (the svgs)/facebook_boxed.svg",
+		"/Z/_Design Resources/Icons/Our SVG Icons (the svgs)/linkedin_boxed.svg",
+		"/C/repositories/misa/public_html/images/search-button.svg",
+		"/Z/_Design Resources/Icons/Our SVG Icons (the svgs)/twitter-boxed.svg",
+		"/C/repositories/texo/public_html/new_site/public_html/footer.php",
+		"/C/repositories/texo/public_html/new_site/public_html/index.php",
+		"/C/repositories/texo/public_html/new_site/public_html/header.php",
+		"/C/repositories/texo/public_html/new_site/public_html/header_top.php",
+		"/C/repositories/texo/public_html/new_site/public_html/css/mms-styles.css",
+		"/C/repositories/texo/public_html/new_site/public_html/css/navigation.css",
+		"/C/repositories/texo/public_html/new_site/public_html/css/media_query.css",
+		"/C/repositories/texo/public_html/new_site/public_html/css/style.css",
+		"/C/repositories/jzlz/public_html/dropdown.php",
+		"/C/repositories/palm/public_html/header.php",
+		"/C/repositories/name/public_html/footer.php",
+		"/C/repositories/name/public_html/header_top.php",
+		"/C/repositories/name/public_html/header.php",
+		"/C/repositories/name/public_html/includes/functions.php",
+		"/C/repositories/name/public_html/includes/functions/menus.php",
+		"/C/repositories/mdsn/public_html/layouts/layouts.php",
+		"/C/repositories/name/public_html/includes/config.php",
+		"/C/repositories/name/public_html/index.php",
+		"/C/repositories/aaro/public_html/includes/functions/log_in_form.php",
+		"/C/repositories/aaro (old site)/newsletters.html",
+		"/C/repositories/aaro (old site)/index.html",
+		"/C/repositories/aaro (old site)/conference.html",
+		"/C/repositories/pwea/host.txt",
+		"/C/repositories/texo/public_html/new_site/layouts/layouts.php",
+		"/C/repositories/pwea/public_html/layouts/layouts.php",
+		"/C/repositories/nama/public_html/header_top.php",
+		"/C/repositories/aaro/public_html/images/aaro-logo.svg",
+		"/C/repositories/aaro/public_html/images/aaro-tagline.svg",
+		"/Z/_Framework Resources/css/mobile_menu.css",
+		"/C/repositories/mala/public_html/header.php",
+		"/C/repositories/mala/public_html/css/style.css",
+		"/Z/_Framework Resources/includes/functions/menus.php",
+		"/C/repositories/mdsn/public_html/index.php",
+		"/C/repositories/aaro/public_html/images/aaro-logo1-01-01.svg",
+		"/C/repositories/palm/public_html/images/palm-logo.svg",
+		"/Z/_Framework Resources/_function instructions/function_instructions.php",
+		"/C/Users/Design-PC2/Desktop/Attempt at Event Feed.php",
+		"/Z/_Framework Resources/includes/functions/svg_icons.php",
+		"/C/repositories/aaro/public_html/images/svg.php",
+		"/Z/_Framework Resources/images/svg.php",
+		"/C/repositories/aaro/public_html/includes/functions/svg_icons.php",
+		"/C/repositories/aaro/public_html/includes/config.php",
+		"/Z/_Framework Resources/search.php",
+		"/Z/_Framework Resources/includes/functions/search_box.php",
+		"/C/repositories/aaro/public_html/includes/functions.php",
+		"/C/Users/Design-PC2/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Design-PC2/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Z/_Framework Resources/includes/functions.php",
+		"/C/repositories/aaro/public_html/includes/functions/search_box.php",
+		"/C/repositories/aaro/public_html/VPhoto.php",
+		"/C/repositories/aaro/public_html/news_curl.php",
+		"/C/repositories/aaro/public_html/dropdown.php",
+		"/C/repositories/aaro/public_html/captcha.php",
+		"/C/repositories/aaro/public_html/calendar_feed.php",
+		"/C/repositories/aaro/public_html/calendar.php",
+		"/C/repositories/aaro/public_html/clean_member login.php",
+		"/C/repositories/aaro/public_html/search.php",
+		"/C/repositories/aaro/public_html/parseXML.php",
+		"/C/repositories/aaro/public_html/news_manager.php",
+		"/C/repositories/aaro/public_html/footer.php",
+		"/C/repositories/aaro/public_html/forgot_pwd.php",
+		"/C/repositories/aaro/public_html/full_news_feed.php",
+		"/C/repositories/aaro/public_html/facebook_feed.php",
+		"/C/repositories/aaro/public_html/events_feed.php",
+		"/C/repositories/aaro/public_html/event_options.php",
+		"/C/repositories/aaro/public_html/event_curl.php",
+		"/C/repositories/aaro/public_html/includes/elements.php",
+		"/C/repositories/aaro/public_html/css/mobile_menu.css",
+		"/C/repositories/aaro/public_html/css/nav collapse at tablet.css",
+		"/C/repositories/aaro/public_html/css/jpanelmenu.css",
+		"/C/repositories/aaro/public_html/css/colors.css",
+		"/C/repositories/aaro/public_html/css/mms_fix.css",
+		"/C/repositories/wvcf/public_html/css/mms_fix.css",
+		"/Z/_Framework Resources/clean/mms-input-resets.css",
+		"/Z/_Framework Resources/css/mms_fix.css",
+		"/C/repositories/wvcf/public_html/css/icono.min.css",
+		"/C/repositories/cwea/public_html/js/navPadder.js",
+		"/C/Users/Design-PC2/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/repositories/cwea/public_html/css/navigation.css",
+		"/C/repositories/wvcf/public_html/header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border-box",
+			"box",
+			"border-box",
+			"border",
+			"border-box",
+			"domain",
+			"$no_http_base",
+			"href",
+			"respond",
+			"sans",
+			"Sans",
+			";\n",
+			"h3",
+			"col-",
+			"quick-links-wrap",
+			"quick-links-wrapper",
+			"toggle",
+			"666",
+			"808080",
+			"menu",
+			"tagline",
+			"img",
+			"url",
+			"form",
+			"read",
+			"not",
+			"news",
+			"date",
+			"date\n",
+			"DATE\n",
+			";\n",
+			"search_code",
+			"'submit_button'",
+			"bootstrap_button",
+			"news",
+			"+",
+			"slide",
+			"quick_menu",
+			"news",
+			"Merriweather",
+			"links",
+			"link",
+			"hover",
+			"alt	",
+			"firs	",
+			"firs",
+			"submit",
+			"foot",
+			"hover",
+			"iphone",
+			"wvop",
+			"optometric",
+			" \n",
+			"login-link",
+			"top-logo",
+			"logo",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/media_query.css",
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 7548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/navigation.css",
+					"settings":
+					{
+						"buffer_size": 3515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "header_top.php",
+					"settings":
+					{
+						"buffer_size": 3677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 1186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/Z/_Framework Resources/_function instructions/function_instructions.php",
+					"settings":
+					{
+						"buffer_size": 18357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/repositories/texo/public_html/redesign/includes/config.php",
+					"settings":
+					{
+						"buffer_size": 5324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 102.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.389454622759,
+			0.778993055556,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
