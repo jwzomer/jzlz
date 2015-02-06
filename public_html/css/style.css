@@ -1,0 +1,337 @@
+/*-------------------------------------------------------------
+-----------------------------Colors----------------------------
+--------------------------------------------------------------- 
+dark blue:#006CB7; 
+light blue: #5C9168;
+dark gray: #7D7D7D; 
+light gray: #e6e6e6;
+
+---------------------------------------------------------------
+-------------------------------------------------------------*/
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Open Sans Condensed', sans-serif;
+/*-------------------------------------------------------------
+						Fonts, Titles, Text
+-------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700);
+/* Headings*/ 
+h1{
+/* This really serves no purpose other than to fix the next style*/
+}
+p{
+	font-size: 16px;
+	font-family: "Open Sans";
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+    margin: 0px;
+    padding:0px;
+    font-family: "Open Sans", sans-serif;   
+    font-weight: 700;
+	padding-bottom: .25em;
+} 
+h1.front, h2.front{
+	font-size: 20px;
+	color: white;
+  	background-color: #7D7D7D; /*fallback for browsers that don't support gradients*/
+	background: linear-gradient(to bottom,
+		#7D7D7D 2px,
+  		#fff 2px,
+  		#7D7D7D 29px,
+  		#fff 2px,
+  		#7D7D7D 2px
+	);
+	background-size: 100% 45px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+h3.front{
+	color: white;
+	background-color: #006CB7; /*fallback for browsers that don't support gradients*/
+	background-image: linear-gradient(to bottom,
+		#006CB7 2px,
+  		#fff 2px,
+  		#006CB7 29px,
+  		#fff 2px,
+  		#006CB7 2px
+	);
+	background-size: 100% 45px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+	/*Anytime a header follows another object, it will be 29px below that object*/
+	margin-top: 24px;
+}
+h1 {
+	font-size: 20px;
+	color: #333; 
+} 
+h2 {
+	font-size: 19px; 
+	color: #333; 
+} 
+h3 {
+    font-size: 17px;
+    color: #333; 
+}
+/* ---------------------Others */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333; 
+	background-color: #e6e6e6;
+}
+p{
+	line-height: 20px;
+}
+p + p {
+	margin-bottom: 23px;
+}
+p + h1, p + h2, p + h3, {
+	/*Anytime a header follows another object, this determines the space below that object*/
+	margin-bottom: 16px;
+}
+abbr{
+	border-bottom: 0px !important;
+}
+/*------------------------------- links */
+a {
+	color: #5C9168;
+}
+a:hover a:active{
+	text-decoration: underline;
+}
+/*--------------------------------------------------------------
+						Images/Objects
+--------------------------------------------------------------*/
+img{
+	border: 0px;
+}
+/*------------------------Slideshow*/
+
+.front-slide img{
+    margin-left: 0px !important;
+	margin-right: 0px !important;
+	/* overwrites Bootstrap inline style */
+}
+.carousel-control {
+	display: none !important;
+	/* overwrites Bootstrap inline style */
+}
+/*buttons*/
+.button {
+	color:white;
+	font-weight: 700;
+	border:none;
+	padding: 16px 5px 17px;
+	text-align: center;
+	background-color: #006cb7;
+	max-width: 90px;
+}
+a.sponsor{
+	padding: 16px 20px 17px;
+	max-width: 500px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 10px;
+	text-decoration:none;
+}
+a.button{
+	text-decoration:none;
+}
+/*Calendar*/
+/*--------------------------------------------------------------
+						Modal Log In
+--------------------------------------------------------------*/
+.modal{
+	overflow-y: visible;
+}
+.modal-dialog{
+	max-width: 250px;
+}
+.modal-header{
+	text-align: center;
+}
+/*--------------------------------------------------------------
+						Header
+--------------------------------------------------------------*/
+#body-container{
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	background-color: white;
+}
+/*-------------------------------------Head Row*/
+#head-row{
+	height: 80px;
+	position: relative;
+	margin-bottom: 15px;
+	border-top: 40px solid #5C9168;
+	z-index: 50;
+}
+#logo-row{
+	height: 80px;
+	position: relative;
+	z-index: 100;
+}
+#logo-wrapper{
+	border-radius: 50%;
+	background-color: #eff4ff; /*fallback for browsers that don't support gradients*/
+	background-image: -moz-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+	width: 543px;
+	height: 311px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+#logo-wrapper>img{
+	max-width: 100%;
+	height: auto;
+}
+/*-------------------------------------Nav Row*/
+#nav-row{
+	height: 38px;
+	background-color: #006CB7;
+	margin-bottom: 17px;
+	z-index: 150;
+}
+/*--------------------------------Body Row*/
+#body-row{
+	margin-bottom: 50px;
+}
+/*-------------------------------------------------------------
+						Body
+-------------------------------------------------------------*/
+/*-------------------------------------Slide Row*/
+#slide-row{
+	background-image: ;
+	margin-bottom: 25px;
+}
+#front-slide {	
+	border: 2px solid white;
+}
+#sponsor-slide
+/* ---------------------Index page*/
+
+/*--------------------------------Sidebar*/
+#sidebar{
+	padding-right: 0px; 
+	padding-left: 0px;
+}
+#sidebar:first-child{
+	margin-bottom: 13px;
+}
+/*-----------------------------Main Content section 1*/
+#main-content{
+
+}
+
+/*-----------------------------Main Content section 2*/
+#main-content>h2 + div{
+	background-color: #e6e6e6;
+	border: 1px solid #333;
+	padding: 10px 0;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+						Footer
+--------------------------------------------------------------*/
+#footer-row{
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+#footer-row *{
+	color:#333;
+	font-size:12px;
+}
+#contact-row{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	margin-bottom: 20px;
+}
+#copyright-row{
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+						Utilities
+--------------------------------------------------------------*/
+.bold{
+	font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.z-50{
+	position: relative;
+	z-index: 50;
+}
+.z-100{
+	position: relative;
+	z-index: 100;
+}
+a.block-link{
+	display: block;
+}
+a.inline-block-link{
+	display: inline-block;
+}
+/*--------------------------------------------------------------
+						CMS page styles
+--------------------------------------------------------------*/
+.cms-hidden{
+	display:none;
+}
+input, button, select, textarea /*Overwrites Bootstraps line-height inheritence; makes backend inputs huge*/{
+	line-height: 14px;
+}
+.cms-hidden{
+	display:none;
+}
+.title{
+	margin: 2% 0 1%;
+}
+/*Contact Us Page*/
+.contact-wrapper>input, .contact-wrapper>textarea, .contact-wrapper [placeholder], input.captcha{
+/* 	padding: 6px;
+	padding-left: .4em;
+	margin: 0px auto;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	max-width: 250px;
+	width: 75%;
+	min-width: 275px;
+	color: #333; */
+}
+.contact-wrapper>textarea{
+	width:100%;
+	max-width:650px;
+	height:200px;
+	max-height:500px;
+	color: #333;
+}
+.submit.button{
+	padding:0px 18px;
+	}
+
+/*@ placeholder text */
+::-webkit-input-placeholder {
+	color:#333;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:#333;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color:#333;
+}
+:-ms-input-placeholder {  
+	color:#333;
+}

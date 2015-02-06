@@ -1,0 +1,17 @@
+
+this script allows you to use our SVG icons as background images, or wherever you need a .svg file instead of the
+normal inline SVG that svg_icon() outputs.  It's great for using as background images in your CSS.
+
+When you call this image, you have three variables that can be used: 
+ i - Icon.  Specify the icon you'd like
+ s - size.  Specify the size of the icon
+ c - Color. Specify the color
+
+To use these attributes, you must call the icon using URL GET variables.  
+If I wanted a blue facebook icon that was 32 px tall, I would call it like so:
+ <img src="images/svg.php?i=facebook&s=32&c=blue" />
+
+If I want to use it in my CSS, it's the same idea-
+ .class{
+ 	  background-image: url('../images/svg.php?i=facebook&s=32&c=blue');
+ }
