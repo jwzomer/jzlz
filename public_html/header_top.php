@@ -44,8 +44,7 @@ include('includes/functions.php');
 		<link type="text/css" rel="stylesheet" href="<?=$no_http_base?>css/gcal.css" /> -->
 		
 		<!-- Google fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-		
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>		
 		<!-- Our style sheets -->
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/style.css?combobreaker=1" />
 		<!--<link rel="stylesheet" type="text/css" href="<?=$base;?>css/mms-styles.css" />-->

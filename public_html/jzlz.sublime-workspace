@@ -68,18 +68,21 @@
 	"buffers":
 	[
 		{
-			"file": "css/media_query.css",
+			"contents": "/*-------------------------------------------------------------\n-----------------------------Colors----------------------------\n--------------------------------------------------------------- \ndark blue:#006CB7; \nlight blue: #5C9168;\ndark gray: #7D7D7D; \nlight gray: #e6e6e6;\n\n---------------------------------------------------------------\n-------------------------------------------------------------*/\nfont-family: 'Lato', sans-serif;\n/*-------------------------------------------------------------\n						Fonts, Titles, Text\n-------------------------------------------------------------*/\n@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);/* Headings*/ \nh1{\n/* This really serves no purpose other than to fix the next style*/\n}\nbody {\n	font-family: 'Lato', sans-serif;\n	font-weight: 400;\n	font-size: 16px;\n	color: white; \n	background-color: #414042;\n}\np{\n	font-size: 16px;\n}\nh1, h2, h3, h4, h5, h6 {\n	color: #333;\n	margin: 0px;\n	padding:0px;\n    font-weight: 300;\n	padding-bottom: 16px;\n} \n\n* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {\n	/*Anytime a header follows another object, it will be 29px below that object*/\n	margin-top: 24px;\n}\nh1 {\n	font-size: 30px;\n} \nh2 {\n	font-size: 24px; \n} \nh3 {\n    font-size: 22px;\n}\n/* ---------------------Others */\np{\n	line-height: 20px;\n}\np + p {\n	margin-bottom: 5px;\n}\np + h1, p + h2, p + h3, {\n	/*Anytime a header follows another object, this determines the space below that object*/\n	margin-bottom: 16px;\n}\nabbr{\n	border-bottom: 0px !important;\n}\n/*------------------------------- links */\na {\n	color: #00BDF2;\n}\na:hover a:active{\n	text-decoration: underline;\n}\n/*--------------------------------------------------------------\n						Images/Objects\n--------------------------------------------------------------*/\nimg{\n	border: 0px;\n}\n/*------------------------Slideshow*/\n\n.front-slide img{\n    margin-left: 0px !important;\n	margin-right: 0px !important;\n	/* overwrites Bootstrap inline style */\n}\n.carousel-control {\n	display: none !important;\n	/* overwrites Bootstrap inline style */\n}\n/*buttons*/\n.button {\n	color:white;\n	font-weight: 700;\n	border:none;\n	padding: 16px 5px 17px;\n	text-align: center;\n	background-color: #006cb7;\n	max-width: 90px;\n}\na.cta{\n	padding: 16px 20px 17px;\n	max-width: 347px;\n	height : 81px;\n	box-sizing: border-box;\n	position: relative;\n	bottom: 10px;\n	text-decoration:none;\n}\na.button{\n	text-decoration:none;\n}\nM1839FyXulzOIECX\n/*Calendar*/\n/*--------------------------------------------------------------\n						Modal Log In\n--------------------------------------------------------------*/\n.modal{\n	overflow-y: visible;\n}\n.modal-dialog{\n	max-width: 250px;\n}\n.modal-header{\n	text-align: center;\n}\n/*--------------------------------------------------------------\n						Header\n--------------------------------------------------------------*/\n#body-container{\n	background-color: #231F20;\n}\n/*-------------------------------------Head Row*/\n#head-row{\n	height: 80px;\n	position: relative;\n	margin-bottom: 15px;\n	border-top: 40px solid #5C9168;\n	z-index: 50;\n}\n#logo-row{\n	height: 80px;\n	position: relative;\n	z-index: 100;\n}\n#logo-wrapper{\n	border-radius: 50%;\n	background-color: #eff4ff; /*fallback for browsers that don't support gradients*/\n	background-image: -moz-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);\n	background-image: -webkit-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);\n	background-image: -ms-linear-gradient( 90deg, rgb(221,231,255) 0%, rgb(238,243,255) 25%, rgb(255,255,255) 100%);\n	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);\n	width: 543px;\n	height: 311px;\n	box-sizing: border-box;\n	padding: 20px;\n}\n#logo-wrapper>img{\n	max-width: 100%;\n	height: auto;\n}\n/*-------------------------------------Nav Row*/\n#nav-row{\n	height: 38px;\n	background-color: #006CB7;\n	margin-bottom: 17px;\n	z-index: 150;\n}\n/*--------------------------------Body Row*/\n#body-row{\n	margin-bottom: 50px;\n}\n/*-------------------------------------------------------------\n						Body\n-------------------------------------------------------------*/\n/*-------------------------------------Slide Row*/\n#slide-row{\n	background-image: ;\n	margin-bottom: 25px;\n}\n#front-slide {	\n	border: 2px solid white;\n}\n#sponsor-slide\n/* ---------------------Index page*/\n\n/*--------------------------------Sidebar*/\n#sidebar{\n	padding-right: 0px; \n	padding-left: 0px;\n}\n#sidebar:first-child{\n	margin-bottom: 13px;\n}\n/*-----------------------------Main Content section 1*/\n#main-content{\n\n}\n\n/*-----------------------------Main Content section 2*/\n#main-content>h2 + div{\n	background-color: #e6e6e6;\n	border: 1px solid #333;\n	padding: 10px 0;\n	width: 100%;\n}\n\n/*--------------------------------------------------------------\n						Footer\n--------------------------------------------------------------*/\n#footer-row{\n	padding-top: 25px;\n	padding-bottom: 50px;\n}\n#footer-row *{\n	color:#333;\n	font-size:12px;\n}\n#contact-row{\n	border-top: 1px solid white;\n	border-bottom: 1px solid white;\n	box-sizing: border-box;\n	padding: 10px 30px;\n	margin-bottom: 20px;\n}\n#copyright-row{\n	text-align: right;\n}\n\n/*--------------------------------------------------------------\n						Utilities\n--------------------------------------------------------------*/\n.bold{\n	font-weight: 700;\n}\n.italic {\n    font-style: italic;\n}\n.z-50{\n	position: relative;\n	z-index: 50;\n}\n.z-100{\n	position: relative;\n	z-index: 100;\n}\na.block-link{\n	display: block;\n}\na.inline-block-link{\n	display: inline-block;\n}\n/*--------------------------------------------------------------\n						CMS page styles\n--------------------------------------------------------------*/\n.cms-hidden{\n	display:none;\n}\ninput, button, select, textarea /*Overwrites Bootstraps line-height inheritence; makes backend inputs huge*/{\n	line-height: 14px;\n}\n.cms-hidden{\n	display:none;\n}\n.title{\n	margin: 2% 0 1%;\n}\n/*Contact Us Page*/\n.contact-wrapper>input, .contact-wrapper>textarea, .contact-wrapper [placeholder], input.captcha{\n/* 	padding: 6px;\n	padding-left: .4em;\n	margin: 0px auto;\n	margin-bottom: 15px;\n	border-radius: 3px;\n	max-width: 250px;\n	width: 75%;\n	min-width: 275px;\n	color: #333; */\n}\n.contact-wrapper>textarea{\n	width:100%;\n	max-width:650px;\n	height:200px;\n	max-height:500px;\n	color: #333;\n}\n.submit.button{\n	padding:0px 18px;\n	}\n\n/*@ placeholder text */\n::-webkit-input-placeholder {\n	color:#333;\n}\n:-moz-placeholder { /* Firefox 18- */\n	color:#333;\n}\n::-moz-placeholder {  /* Firefox 19+ */\n	color:#333;\n}\n:-ms-input-placeholder {  \n	color:#333;\n}",
+			"file": "css/style.css",
+			"file_size": 7308,
+			"file_write_time": 130677282359771631,
 			"settings":
 			{
-				"buffer_size": 208,
+				"buffer_size": 6555,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/style.css",
+			"file": "css/media_query.css",
 			"settings":
 			{
-				"buffer_size": 7548,
+				"buffer_size": 208,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,8 +98,28 @@
 			"file": "header_top.php",
 			"settings":
 			{
-				"buffer_size": 3677,
+				"buffer_size": 3651,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "php error test\n<?\n$error = 'test'\n$nowItsAnError = 'asdf'\n\n?>\n<form method=\"post\" action=\"page2.php\">\n	<input type=\"text\" name=\"first_name\">\n	<input type=\"text\" name=\"last_name\">\n</form>\n\n<?\n\n$firstName = $_POST['first_name'];\n?>",
+			"file": "errortest.php",
+			"file_size": 197,
+			"file_write_time": 130677314549132757,
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Windows",
+				"name": "php error test"
+			}
+		},
+		{
+			"file": "/C/Users/Design-PC2/AppData/Local/Temp/fz3temp-1/index.php",
+			"settings":
+			{
+				"buffer_size": 1765,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -105,6 +128,14 @@
 			{
 				"buffer_size": 1186,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Design-PC2/AppData/Local/Temp/fz3temp-1/header.php",
+			"settings":
+			{
+				"buffer_size": 1882,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -132,10 +163,13 @@
 			}
 		},
 		{
+			"contents": "<?\n$site_is_live 			= false;\n$site_is_a_redesign		= true;			//T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.\n$redesign_menu_addon 	= 'redesign'; 	//When doing a redesign, give this the name of the redesign folder.  Usually just 'redesign'.  \n\n$org_id					= 'TEXO';\n$their_domain 			= 'texomarealtor.com';\n$server_name 			= 'viethconsulting.com'; //viethconsulting.com for old clients, memberleap.com for new clients\n$host_number 			= '3';  //as in, \"host7.viethwebhosting.com...\".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now\n$contact_email 			= ''; //For contact_us.php\n$org_name 				= 'Greater Texoma Association of REALTORS'; //Proper name for page title \n$ucc 					= false; //for when someone has mms.theirdomainname.com...\n\n//Google stuff\n$google_search_code 	= '010563352096309179583:p6rwuutwax0';\n\n$functions = array(\n	//PHP and Server Side Functions\n	'input_shortener.php' 	=> false,\n	'menus.php'				=> true,\n	'slideshows.php' 		=> true,\n	'svg_icons.php' 		=> false,\n	'log_in_form.php'		=> true,\n	'news_feed.php'			=> false,\n	'event_feed.php'		=> false,\n	'search_box.php'		=> true,\n	\n	//Javascript Fixer Functions\n	\n	'equal_height.js'		=> false,\n	'formatPhoneLink.js'	=> true,\n	'itemSlider.js'			=> false,\n	'linkConverter.js'		=> true,\n	'navPadder.js'			=> false,\n	'user_image_hw_fix.js'	=> true,\n	'vcenter.js'			=> false\n);\n\n$news_options = array(\n	'number_of_news_items'	=>	'4',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events\n	'desc_text_limit'		=>	'120', 				//# or F - Sets the amount of characters for the description, or false for no limit\n	'desc_text_hard_break'	=>	false,				//T or F - T: breaks description exactly at limit; F: breaks description after space following limit\n	'desc_strip_tags'		=>	true,				//T or F - T: Strips everything except <br>; F: gives raw description\n	'read_more_link'		=>	false,		//String or F - Sets the text for the \"more\" button; F: does not show a \"read more\" button/link\n	'title_as_link'			=>	false,				//T or F - Display the title as a link\n	'open_links_in_new_tab'	=>	false,				//T or F - T: Opens title and \"more\" links in new tab, F: opens title/\"more\" links in current tab\n	'format_month'			=>	'F',				//See PHP's date() functionality\n	'format_day'			=>	'l',				//--http://php.net/manual/en/function.date.php\n	'format_year'			=>	'Y',\n	'format_full_date'		=>	'M j Y',\n	'template_file'			=>	'name-news.php',//File Name - This file has the HTML and CSS for one event item.  Create it and store it in the public_html folder\n	'news_categories'		=>	array()				//array - make it like this 'category number' ,'category number' etc of accepted categories.  Get them from inspecting news cats.\n);\n\n$event_options = array(\n	'number_of_events'		=>	'3',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events\n	'desc_text_limit'		=>	'80', 				//# or F - Sets the amount of characters for the description, or false for no limit\n	'desc_text_hard_break'	=>	true,				//T or F - T: breaks description exactly at limit; F: breaks description after space following limit\n	'desc_strip_tags'		=>	true,				//T or F - T: Strips everything except <br>; F: gives raw description\n	'read_more_link'		=>	false,		//String or F - Sets the text for the \"more\" button; F: does not show a \"read more\" button/link\n	'title_as_link'			=>	true,				//T or F - Display the title as a link\n	'open_links_in_new_tab'	=>	false,				//T or F - T: Opens title and \"more\" links in new tab, F: opens title/\"more\" links in current tab\n	'format_month'			=>	'F',				//See PHP's date() functionality\n	'format_day'			=>	'l',				//--http://php.net/manual/en/function.date.php\n	'format_year'			=>	'Y',\n	'format_full_date'		=>	'M j Y',\n	'template_file'			=>	'name-events.php',	//File Name - This file has the HTML and CSS for one event item.  Create it and store it in the public_html folder\n	'cal_type'				=>	array(),			//array - This MUST be an array if used.  Look up your cal types, and add the numbers surrounded by asterisks for the categories you wish to display - e.g. ['*123*', '*187*', '*404*']\n	'highlight_class'		=>	'ev-highlight',		//CSS Class - Set a class for highlights - an option from the calendar admin.  If set, this class will be added to any events the admin specifies with the \"highlight\" option in news manager\n);\n\n//Don't worry about the stuff below this line\n$lc_org_id = strtolower($org_id); \n$PTR = '/home/'.$lc_org_id.'/public_html/';\n$PTR = '/home/'.$lc_org_id.'/public_html/';\nif($host_number<5){\n	$host = '';\n} else {\n	$host = 'host'.$host_number.'.';\n}\n$ssl_base = 'https://'.$host.'viethwebhosting.com/~'.$lc_org_id.'/';\n	$base = 'http://'.$host.'viethwebhosting.com/~'.$lc_org_id.'/';\n//$no_http_base = substr($base, strpos($base,':')+1).'/';\nif(isset($_SERVER['HTTPS'])){\n	$base = $ssl_base;\n}\nif($site_is_a_redesign == true){\n	$base = '//'.$their_domain.'/'.$redesign_menu_addon.'/';\n}\nif($site_is_live == true || $site_is_a_redesign == true){\n	$domain = $their_domain; \n} else {\n	$domain = $host.'viethwebhosting.com/~'.$lc_org_id;\n}\nif($ucc == true){\n	$server_name = 'mms.'.$domain;\n}\nif($site_is_live == true || $site_is_a_redesign == false){\n	$redesign_menu_addon = '';\n}\n$calpref = 'list';\n$top_left_div_feed = \"announcements.htm\";\n\n?>	\n<div class=\"col-md-12\"></div>div.blaj",
 			"file": "/C/repositories/texo/public_html/redesign/includes/config.php",
+			"file_size": 5324,
+			"file_write_time": 130677181580345120,
 			"settings":
 			{
-				"buffer_size": 5324,
+				"buffer_size": 5361,
 				"line_ending": "Unix"
 			}
 		}
@@ -278,6 +312,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"config",
+			"	<",
 			"border-box",
 			"box",
 			"border-box",
@@ -352,11 +388,38 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 6555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2423,
+								2407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "css/media_query.css",
 					"settings":
 					{
@@ -374,33 +437,6 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 7548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -437,7 +473,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -445,15 +481,15 @@
 					"file": "header_top.php",
 					"settings":
 					{
-						"buffer_size": 3677,
+						"buffer_size": 3651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2053,
+								2071
 							]
 						],
 						"settings":
@@ -462,13 +498,67 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 399.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "errortest.php",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								84
+							]
+						],
+						"settings":
+						{
+							"auto_name": "php error test",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 198.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Design-PC2/AppData/Local/Temp/fz3temp-1/index.php",
+					"settings":
+					{
+						"buffer_size": 1765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1173,
+								1188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "header.php",
 					"settings":
 					{
@@ -495,7 +585,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
+					"file": "/C/Users/Design-PC2/AppData/Local/Temp/fz3temp-1/header.php",
+					"settings":
+					{
+						"buffer_size": 1882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "index.php",
 					"settings":
 					{
@@ -521,7 +638,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "footer.php",
 					"settings":
 					{
@@ -554,7 +671,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "/Z/_Framework Resources/_function instructions/function_instructions.php",
 					"settings":
 					{
@@ -581,19 +698,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "/C/repositories/texo/public_html/redesign/includes/config.php",
 					"settings":
 					{
-						"buffer_size": 5324,
+						"buffer_size": 5361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								979,
-								979
+								5319,
+								4430
 							]
 						],
 						"settings":
@@ -601,7 +718,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 102.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -644,8 +761,8 @@
 		"cols":
 		[
 			0.0,
-			0.389454622759,
-			0.778993055556,
+			0.457959827871,
+			0.487739458604,
 			1.0
 		],
 		"rows":
